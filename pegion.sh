@@ -10,8 +10,10 @@ ls /etc/prometheus
 sudo rm -rvf prometheus-2.43.0.linux-amd64*
 
 #sudo vim /etc/hosts
-#3.101.56.72  worker-1
-#54.193.223.22 worker-2
+54.83.71.2   worker-1
+52.90.59.59  worker-2
+3.92.32.169  worker-3
+34.235.128.175 worker-4
 
 sudo cat <<EOF | sudo tee /etc/prometheus/prometheus.yml
 global:
